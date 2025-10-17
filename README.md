@@ -37,6 +37,8 @@ Place your input files in D:\GEAtool\raw_data\Sample_X:
 
 reference.fasta
 
+target.fasta
+
 *_1.fq.gz, *_2.fq.gz
 
 barcode.xlsx
