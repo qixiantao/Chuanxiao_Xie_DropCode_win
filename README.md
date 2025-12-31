@@ -24,36 +24,35 @@ Ubuntu 22.04 LTS (via WSL)
 
 Python 3, Bash
 
-Steps
-Enable WSL2 and install Ubuntu from Microsoft Store.
+Steps：
+1、Enable WSL2 and install Ubuntu from the Microsoft Store.
+2、Download the installation package to the D: drive of your computer, locate the setup file in the GEAtools folder, and double-click and run it.
 
-Clone this repository and run the Setup script.
-
-A desktop shortcut GEAtool will be created.
+3、A desktop shortcut named GEAtool will be created.
 
 🚀 Usage
 
-Place your input files in D:\GEAtool\raw_data\Sample_X:
+1、Place your input files in D:\GEAtool\raw_data\Sample_X:
 
-reference.fasta
+   reference.fasta
 
-target.fasta
+   target.fasta
 
-*_1.fq.gz, *_2.fq.gz
+   *_1.fq.gz, *_2.fq.gz
 
-barcode.xlsx
+   barcode.xlsx
 
-Double-click the GEAtool desktop shortcut to start analysis.
+2、Double-click the GEAtool desktop shortcut to start analysis.
 
-View results in D:\GEAtool\raw_data\BAM\Sample_X:
+3、View results in D:\GEAtool\raw_data\BAM\Sample_X:
 
-*.sorted.bam
+   *.sorted.bam
 
-*.bai (index)
+   *.bai (index)
 
-*_fastp_reporter.html (QC report)
+   *_fastp_reporter.html (QC report)
 
-Visualize BAM files using IGV.
+4、Visualize BAM files using IGV.
 
 📁 Project Structure
 
