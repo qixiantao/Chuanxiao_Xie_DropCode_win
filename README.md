@@ -26,6 +26,7 @@ Python 3, Bash
 
 Steps：
 1、Enable WSL2 and install Ubuntu from the Microsoft Store.
+
 2、Download the installation package to the D: drive of your computer, locate the setup file in the GEAtools folder, and double-click and run it.
 
 3、A desktop shortcut named GEAtool will be created.
