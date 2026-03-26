@@ -1,6 +1,7 @@
 # DropCode User Guide
 
 **DropCode** is a bioinformatics pipeline for demultiplexing and variant calling from amplicon sequencing data. It runs in WSL2 (Windows Subsystem for Linux) and provides a graphical interface for easy operation.
+<img width="554" height="281" alt="image" src="https://github.com/user-attachments/assets/52a0a110-dc97-4f16-8f6a-cfd4cc5794f1" />
 
 ---
 
@@ -40,6 +41,7 @@ After restart, launch Ubuntu from the Start Menu. You will be asked to create a 
 4. Click **Finish**.
 
 A command prompt window will open, showing the setup progress inside WSL. This step may take **2–5 minutes** (depending on your internet speed) as it installs Miniconda, bioinformatics tools, and Python packages. **Do not close the window** until you see:
+<img width="846" height="676" alt="1044a434-f388-4864-a927-7a238a696f90" src="https://github.com/user-attachments/assets/09cfafb1-7809-44f0-a620-5a4a80398dda" />
 
 ```
 Environment setup completed successfully!
@@ -47,6 +49,7 @@ You can now use DropCode GUI.
 ```
 
 If the configuration fails, you can manually run it later by double‑clicking the **“Setup WSL Environment”** shortcut in the Start Menu.
+<img width="702" height="391" alt="335fbcac-b476-48cb-a652-7767eb1be720" src="https://github.com/user-attachments/assets/b870946b-f509-4fb4-a29e-6736c9359e0d" />
 
 ---
 
