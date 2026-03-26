@@ -1,7 +1,8 @@
 # DropCode User Guide
 
 **DropCode** is a bioinformatics pipeline for demultiplexing and variant calling from amplicon sequencing data. It runs in WSL2 (Windows Subsystem for Linux) and provides a graphical interface for easy operation.
-<img width="554" height="281" alt="image" src="https://github.com/user-attachments/assets/52a0a110-dc97-4f16-8f6a-cfd4cc5794f1" />
+
+<img width="1762" height="804" alt="image" src="https://github.com/user-attachments/assets/442bef67-602a-4cb8-860b-f45afd248e49" />
 
 ---
 
@@ -41,7 +42,6 @@ After restart, launch Ubuntu from the Start Menu. You will be asked to create a 
 4. Click **Finish**.
 
 A command prompt window will open, showing the setup progress inside WSL. This step may take **2–5 minutes** (depending on your internet speed) as it installs Miniconda, bioinformatics tools, and Python packages. **Do not close the window** until you see:
-<img width="846" height="676" alt="1044a434-f388-4864-a927-7a238a696f90" src="https://github.com/user-attachments/assets/09cfafb1-7809-44f0-a620-5a4a80398dda" />
 
 ```
 Environment setup completed successfully!
@@ -49,6 +49,7 @@ You can now use DropCode GUI.
 ```
 
 If the configuration fails, you can manually run it later by double‑clicking the **“Setup WSL Environment”** shortcut in the Start Menu.
+
 <img width="702" height="391" alt="335fbcac-b476-48cb-a652-7767eb1be720" src="https://github.com/user-attachments/assets/b870946b-f509-4fb4-a29e-6736c9359e0d" />
 
 ---
@@ -61,6 +62,7 @@ After installation, you will find:
 - A Start Menu folder **DropCode** containing both the GUI and the setup utility.
 
 Double‑click the desktop shortcut to start the GUI.
+<img width="600" height="400" alt="1044a434-f388-4864-a927-7a238a696f90" src="https://github.com/user-attachments/assets/09cfafb1-7809-44f0-a620-5a4a80398dda" />
 
 ---
 
@@ -142,6 +144,8 @@ Or simply wait – it may take a few minutes but will eventually complete.
 ---
 
 ### Q3: GUI says “WSL2 not properly configured” but I already ran the setup
+
+<img width="852" height="682" alt="a480c0db-fd6f-4613-98b7-c3eb0a816822" src="https://github.com/user-attachments/assets/2fcb2265-6174-4607-8710-f25d8a8b54de" />
 
 **Symptom**: The desktop shortcut shows the error, even though the environment setup completed successfully.
 
