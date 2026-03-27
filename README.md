@@ -111,13 +111,18 @@ Optionally, you can also include a `library.xlsx` file for name‑to‑password 
 Click **Run Analysis** to start. Progress logs will appear in the text area. When finished, the output folder will contain a `DropCode_result.xlsx` file with allele counts per sample, as well as BAM alignment files per sample in the `BAM` subfolder.
 
 
+
 **Run Analysis** 
 
 <img width="600" height="400" alt="25e44a802c46c7e12bcc5c5eba3a2323" src="https://github.com/user-attachments/assets/9fa43759-d787-406f-bf48-81ef61469f6e" />
 
+
+
 **Detailed information of mutation sites** 
 
 <img width="600" height="400" alt="e9f96ea05ccd9b97d4aeb772ab194624" src="https://github.com/user-attachments/assets/ef930c87-cfeb-4a4b-8c6e-d06080ea9bda" />
+
+
 
 **View sample alignment results in IGV browser** 
 
