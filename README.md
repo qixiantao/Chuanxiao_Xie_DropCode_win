@@ -205,7 +205,6 @@ Make sure it contains the word “Ubuntu”. If it shows something else (e.g., �
 **Solution**: The installer installs pandas, openpyxl, biopython, and vcfpy via pip. If they are missing, open a WSL terminal and run:
 
 ```bash
-conda activate base
 pip install pandas openpyxl biopython vcfpy
 ```
 
@@ -225,11 +224,6 @@ Then restart the GUI.
 
 **Solution**: Use Windows **Settings > Apps > Apps & features**, find “DropCode”, and uninstall. This removes the GUI executable and shortcuts. The WSL environment (conda, tools) remains in your Ubuntu installation. To remove it completely, open a WSL terminal and run:
 
-```bash
-conda env remove -n dropcode
-rm -rf ~/miniconda3
-```
-
 ---
 
 ## Advanced: Manual Installation of Tools
@@ -237,7 +231,6 @@ rm -rf ~/miniconda3
 If you prefer to install bwa, samtools, and fastp manually (e.g., to get the latest versions), you can do so inside WSL:
 
 ```bash
-conda activate base
 conda install -c bioconda bwa samtools fastp
 ```
 
