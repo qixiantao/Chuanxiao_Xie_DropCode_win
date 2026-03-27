@@ -41,17 +41,16 @@ After restart, launch Ubuntu from the Start Menu. You will be asked to create a 
 2. Double‑click the installer and follow the on‑screen instructions.
 3. **Important**: On the final page, make sure the checkbox **“Configure WSL2 and install dependencies” is ticked**. This runs the automatic environment setup inside WSL.
 4. Click **Finish**.
-<img width="300" height="232" alt="image" src="https://github.com/user-attachments/assets/0b9df551-d3ba-47d7-916d-8855bd85137e" /> <img width="300" height="232" alt="88ca325b-1b41-4fb1-9d12-8502b7261c38" src="https://github.com/user-attachments/assets/37d1c8e9-4e84-4794-b241-8cb928a45994" />
 
+<img width="300" height="232" alt="image" src="https://github.com/user-attachments/assets/0b9df551-d3ba-47d7-916d-8855bd85137e" />        <img width="300" height="232" alt="88ca325b-1b41-4fb1-9d12-8502b7261c38" src="https://github.com/user-attachments/assets/37d1c8e9-4e84-4794-b241-8cb928a45994" />
 
 A command prompt window will open, showing the setup progress inside WSL. This step may take **2–5 minutes** (depending on your internet speed) as it installs Miniconda, bioinformatics tools, and Python packages. **Do not close the window** until you see:
 
 ```
 Environment setup completed successfully!
 You can now use DropCode GUI.
-<img width="247" height="254" alt="921021d6ede97574d70a7f762a5db4d7" src="https://github.com/user-attachments/assets/84945b45-9763-44d8-96c5-4aec14ab53c9" />
-
 ```
+<img width="247" height="254" alt="921021d6ede97574d70a7f762a5db4d7" src="https://github.com/user-attachments/assets/84945b45-9763-44d8-96c5-4aec14ab53c9" />
 
 If the configuration fails, you can manually run it later by double‑clicking the **“Setup WSL Environment”** shortcut in the Start Menu.
 
