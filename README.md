@@ -13,6 +13,7 @@
 - At least 8 GB RAM (16 GB recommended)
 - Internet connection for initial setup (Miniconda, Python packages, and optional dependencies)
 - Administrator privileges (required for WSL installation and system library dependencies)
+- Click here for the software：https://github.com/qixiantao/Chuanxiao_Xie_DropCode_win/releases/download/DropCode_V2.0/DropCode_Setup.exe
 
 ---
 
@@ -40,12 +41,16 @@ After restart, launch Ubuntu from the Start Menu. You will be asked to create a 
 2. Double‑click the installer and follow the on‑screen instructions.
 3. **Important**: On the final page, make sure the checkbox **“Configure WSL2 and install dependencies” is ticked**. This runs the automatic environment setup inside WSL.
 4. Click **Finish**.
+<img width="300" height="232" alt="image" src="https://github.com/user-attachments/assets/0b9df551-d3ba-47d7-916d-8855bd85137e" /> <img width="300" height="232" alt="88ca325b-1b41-4fb1-9d12-8502b7261c38" src="https://github.com/user-attachments/assets/37d1c8e9-4e84-4794-b241-8cb928a45994" />
+
 
 A command prompt window will open, showing the setup progress inside WSL. This step may take **2–5 minutes** (depending on your internet speed) as it installs Miniconda, bioinformatics tools, and Python packages. **Do not close the window** until you see:
 
 ```
 Environment setup completed successfully!
 You can now use DropCode GUI.
+<img width="247" height="254" alt="921021d6ede97574d70a7f762a5db4d7" src="https://github.com/user-attachments/assets/84945b45-9763-44d8-96c5-4aec14ab53c9" />
+
 ```
 
 If the configuration fails, you can manually run it later by double‑clicking the **“Setup WSL Environment”** shortcut in the Start Menu.
@@ -105,6 +110,9 @@ Optionally, you can also include a `library.xlsx` file for name‑to‑password 
 - **Quality threshold**: Minimum read quality for filtering (default 20).
 
 Click **Run Analysis** to start. Progress logs will appear in the text area. When finished, the output folder will contain a `DropCode_result.xlsx` file with allele counts per sample, as well as BAM alignment files per sample in the `BAM` subfolder.
+<img width="600" height="400" alt="25e44a802c46c7e12bcc5c5eba3a2323" src="https://github.com/user-attachments/assets/9fa43759-d787-406f-bf48-81ef61469f6e" />
+<img width="600" height="400" alt="e9f96ea05ccd9b97d4aeb772ab194624" src="https://github.com/user-attachments/assets/ef930c87-cfeb-4a4b-8c6e-d06080ea9bda" />
+<img width="600" height="400" alt="89b6580e9de4b2ded87dede65402f2f6" src="https://github.com/user-attachments/assets/c568b045-cd97-4656-9c4f-8f9721c1e92a" />
 
 ---
 
